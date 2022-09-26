@@ -1,0 +1,58 @@
+{
+    "product": [
+        {
+            "id": 1,
+            "title": "Post 1",
+            "name": "t-shirt",
+            "category_id": 5,
+            "descriptions": "description here",
+            "price": 300,
+            "is_available": true,
+            "rating": 4,
+            "review": 150,
+            "vendor_name": "abc shop",
+            "waranty": 1
+        },
+        {
+            "id": 2,
+            "title": "Post 2",
+            "name": "t-shirt2",
+            "category_id": 4,
+            "descriptions": "description here",
+            "price": 300,
+            "is_available": true,
+            "rating": 2,
+            "review": 150,
+            "vendor_name": "abc shop",
+            "waranty": 1
+        },
+        {
+            "id": 3,
+            "title": "Post 3",
+            "name": "t-shirt3",
+            "category_id": 3,
+            "descriptions": "descriptio n here",
+            "price": 300,
+            "is_available": true,
+            "rating": 3,
+            "review": 150,
+            "vendor_name": "abc shop",
+            "waranty": 1
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        },
+        {
+            "id": 2,
+            "body": "some times the vision comment",
+            "postId": 2
+        }
+    ],
+    "profile": {
+        "name": "KPStore"
+    }
+}
