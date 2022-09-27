@@ -4,6 +4,7 @@
 4 # Creating modules ng g m Module name 
 5 # Creating components ng g c Component name
 6 # Creating Services ng g s product
+7 # Creating Interface ng g interface product
 
 Fontes :
 Bootstrap.com
