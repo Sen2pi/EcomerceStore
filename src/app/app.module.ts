@@ -1,3 +1,4 @@
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -15,6 +16,7 @@ import { SiteLayoutModule } from './site-layout/site-layout.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     OrdersModule,
     SiteLayoutModule
   ],

@@ -12,7 +12,7 @@ import { ViewProductByDateComponent } from './view-product-by-date/view-product-
 const routes: Routes = [
   { path: '', component: ProductsComponent },
   { path: 'add-product', component: AddProductComponent },
-  { path: 'delete-product', component: DeleteProductComponent },
+  { path: 'delete-product/:id', component: DeleteProductComponent },
   { path: 'update-product/:id', component: UpdateProductComponent },
   { path: 'view-product/:id', component: ViewProductComponent },
   { path: 'view-all-product', component: ViewAllProductComponent },

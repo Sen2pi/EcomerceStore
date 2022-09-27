@@ -12,8 +12,8 @@ productID = 0;
   constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.activatedRoute.params(data=>{
-      this.productID = data;
+    this.activatedRoute.params.subscribe(data=>{
+      this.productID = data['id'];
 
     })
   }
