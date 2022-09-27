@@ -4,7 +4,7 @@
             "id": 1,
             "title": "Post 1",
             "name": "t-shirt",
-            "category_id": 5,
+            "category_id": 2,
             "descriptions": "description here",
             "price": 300,
             "is_available": true,
@@ -17,7 +17,7 @@
             "id": 2,
             "title": "Post 2",
             "name": "t-shirt2",
-            "category_id": 4,
+            "category_id": 3,
             "descriptions": "description here",
             "price": 300,
             "is_available": true,
@@ -30,7 +30,7 @@
             "id": 3,
             "title": "Post 3",
             "name": "t-shirt3",
-            "category_id": 3,
+            "category_id": 1,
             "descriptions": "descriptio n here",
             "price": 300,
             "is_available": true,
@@ -40,6 +40,25 @@
             "waranty": 1
         }
     ],
+
+    "categories": [
+        {
+            "id": 1,
+            "categoryName": "Electronics"
+            
+        },
+        {
+            "id": 2,
+            "categoryName": "Smartphones"
+            
+        },
+        {
+            "id": 3,
+            "categoryName": "Laptops"
+            
+        }
+    ],
+
     "comments": [
         {
             "id": 1,
